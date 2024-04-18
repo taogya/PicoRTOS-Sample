@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.12)
 
-set(PICO_INSTALL_PATH "C:\\Program Files\\Raspberry Pi\\Pico SDK v1.5.1")
+set(PICO_INSTALL_PATH "${CMAKE_CURRENT_SOURCE_DIR}/../../pico")
 set(PICO_SDK_PATH "${PICO_INSTALL_PATH}/pico-sdk")
 set(PICO_TOOLCHAIN_PATH "${PICO_INSTALL_PATH}/gcc-arm-none-eabi/bin")
 set(CMAKE_TOOLCHAIN_FILE "${PICO_SDK_PATH}/cmake/preload/toolchains/pico_arm_gcc.cmake")
