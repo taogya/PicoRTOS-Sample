@@ -1,5 +1,5 @@
-# BareMetal
-OSを乗せないタイマー割り込みを使用したプログラム。<br>
+# FreeRTOS
+FreeRTOSを使用したプログラム。<br>
 
 ## ビルド手順
 - Windows<br>

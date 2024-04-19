@@ -25,7 +25,9 @@ pico_sdk_init()
 
 # Add executable. Default name is the project name, version 0.1
 
-add_executable(sample_app main.cpp )
+add_executable(sample_app 
+    main.cpp
+)
 
 pico_set_program_name(sample_app "sample_app")
 pico_set_program_version(sample_app "0.1")
@@ -57,4 +59,15 @@ target_include_directories(sample_app PRIVATE
 )
 target_link_libraries(sample_app 
     blink
-)       
+)
+
+# FreeRTOS
+add_subdirectory(freertos)
+target_include_directories(sample_app PRIVATE 
+    freertos
+    freertos/FreeRTOS-Kernel/include
+    freertos/FreeRTOS-Kernel/portable/GCC/ARM_CM0
+)
+target_link_libraries(sample_app
+    freertos
+)
