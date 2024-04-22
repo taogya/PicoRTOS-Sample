@@ -66,7 +66,7 @@ add_subdirectory(freertos)
 target_include_directories(sample_app PRIVATE 
     freertos
     freertos/FreeRTOS-Kernel/include
-    freertos/FreeRTOS-Kernel/portable/GCC/ARM_CM0
+    # freertos/FreeRTOS-Kernel/portable/GCC/ARM_CM0
 )
 target_link_libraries(sample_app
     freertos

@@ -73,11 +73,6 @@ int main()
 
     /* Start the scheduler. */
     vTaskStartScheduler();
-    while (true)
-    {
-        print_current_time("Wait");
-        sleep_ms(1000);
-    };
 
     return 0;
 }
