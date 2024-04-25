@@ -19,7 +19,7 @@ $ python lib/pico-project-generator/pico_project.py --gui
 ```
 
 > [!WARNING]
-> ZephyrRTOSはこのコマンドは使用しません。
+> ZephyrRTOSはこのコマンドを使用しません。
 
 ## ビルド手順
 各サンプルの`README`を参照のこと。

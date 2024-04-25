@@ -16,7 +16,7 @@ https://github.com/raspberrypi/pico-sdk <br>
 > Windowsは以下のインストーラが使用できます。<br>
 > https://www.raspberrypi.com/news/raspberry-pi-pico-windows-installer/ <br>
 > <br>
-> ユーザー環境変数を編集する。([環境変数編集画面を開くバッチ](./Windows_ShowEnvSettings.bat) を実行すると開けます。)<br>
+> ユーザー環境変数を編集する。([環境変数編集画面を開くバッチ](/Windows_ShowEnvSettings.bat) を実行すると開けます。)<br>
 
 
 ## ビルド手順
