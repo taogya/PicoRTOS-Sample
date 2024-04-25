@@ -1,0 +1,26 @@
+{
+  "configurations": [
+    {
+      "name": "Linux",
+      "includePath": [
+        "${workspaceFolder}/**",
+        "${env:ZEPHYR_SDK_PATH}/../zephyr/include/zephyr/**"
+      ],
+      "browse": {
+        "path": [
+          "${workspaceFolder}/src/",
+          "${env:ZEPHYR_SDK_PATH}/../zephyr/include/zephyr/"
+        ],
+        "limitSymbolsToIncludedHeaders": true,
+        "databaseFilename": ""
+      },
+      "defines": [],
+      "compilerPath": "${env:ZEPHYR_SDK_PATH}/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc",
+      "cStandard": "gnu17",
+      "cppStandard": "gnu++14",
+      "intelliSenseMode": "linux-gcc-arm",
+      "configurationProvider" : "ms-vscode.cmake-tools"
+    }
+  ],
+  "version": 4
+}

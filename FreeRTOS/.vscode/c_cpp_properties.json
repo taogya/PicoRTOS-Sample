@@ -1,0 +1,31 @@
+{
+  "configurations": [
+    {
+      "name": "Linux",
+      "includePath": [
+        "${workspaceFolder}/**",
+        "${env:PICO_SDK_PATH}/**"
+      ],
+      "browse": {
+        "path": [
+          "${workspaceFolder}/src/",
+          "${workspaceFolder}/../lib/FreeRTOS-Kernel/include/",
+          "${env:PICO_SDK_PATH}/src/common/pico_stdlib/include/",
+          "${env:PICO_SDK_PATH}/src/rp2_common/hardware_gpio/include/",
+          "${env:PICO_SDK_PATH}/src/rp2_common/hardware_uart/include/",
+          "${env:PICO_SDK_PATH}/src/rp2_common/hardware_timer/include/",
+          "${env:PICO_SDK_PATH}/src/boards/include/boards/"
+        ],
+        "limitSymbolsToIncludedHeaders": true,
+        "databaseFilename": ""
+      },
+      "defines": [],
+      "compilerPath": "${env:PICO_TOOLCHAIN_PATH}/arm-none-eabi-gcc",
+      "cStandard": "gnu17",
+      "cppStandard": "gnu++14",
+      "intelliSenseMode": "linux-gcc-arm",
+      "configurationProvider" : "ms-vscode.cmake-tools"
+    }
+  ],
+  "version": 4
+}
