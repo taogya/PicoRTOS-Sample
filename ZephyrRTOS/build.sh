@@ -1,10 +1,10 @@
 #!/bin/bash
 
-SOURCE_PATH=$(pwd)/src
-BUILD_PATH=$(pwd)/build
+SOURCE_PATH="$(pwd)"/src
+BUILD_PATH="$(pwd)"/build
 CUSTOM_BOARD=boards/raspberrypi/rpi_pico_custom
-ZEPHYR_PRJ_PATH=$ZEPHYR_SDK_PATH/..
-VENV_PATH=$ZEPHYR_PRJ_PATH/.venv
+ZEPHYR_PRJ_PATH="$HOME"/zephyrproject
+VENV_PATH="$ZEPHYR_PRJ_PATH"/.venv
 
 . "$VENV_PATH"/bin/activate
 

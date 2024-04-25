@@ -1,3 +1,10 @@
-rd /s /q "src/build"
-cmake -S src -B src/build -G Ninja
-cmake --build src/build
+
+set SOURCE_PATH=%cd%\src
+set BUILD_PATH=%cd%\build
+
+if "%1"=="clean" (
+    rmdir /S /Q %BUILD_PATH%
+)
+
+cmake -S %SOURCE_PATH% -B %BUILD_PATH% -G Ninja
+cmake --build %BUILD_PATH%

@@ -3,7 +3,7 @@
 set SOURCE_PATH=%cd%\src
 set BUILD_PATH=%cd%\build
 set CUSTOM_BOARD=boards\raspberrypi\rpi_pico_custom
-set ZEPHYR_PRJ_PATH=%ZEPHYR_SDK_PATH%\..
+set ZEPHYR_PRJ_PATH=%HOMEPATH%\zephyrproject
 set VENV_PATH=%ZEPHYR_PRJ_PATH%\.venv
 
 call %VENV_PATH%\Scripts\activate
