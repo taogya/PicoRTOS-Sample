@@ -9,6 +9,8 @@ $ git clone --recurse-submodules https://github.com/taogya/PicoRTOS-Sample.git
     OSを乗せないタイマー割り込みを使用したプログラム。<br>
 - [FreeRTOS](./FreeRTOS/)<br>
     FreeRTOSを使用したプログラム。<br>
+- [ZephyrRTOS](./ZephyrRTOS/)<br>
+    ZephyrRTOSを使用したプログラム。<br>
 
 ## 環境構築
 - Windows<br>
@@ -22,6 +24,8 @@ $ git clone --recurse-submodules https://github.com/taogya/PicoRTOS-Sample.git
             値: `C:\Program Files\Raspberry Pi\Pico SDK v1.5.1\gcc-arm-none-eabi\bin` <br>
         - `PATH` に追加。<br>
             値: `C:\Program Files\Raspberry Pi\Pico SDK v1.5.1\gcc-arm-none-eabi\bin` <br>
+        - `ZEPHYR_SDK_PATH` を新規追加。<br>
+            値: `C:\Users\ogasa\zephyrproject\zephyr-sdk-0.16.5-1` <br>
 
 ## プロジェクト作成方法
 以下のコマンドで，プロジェクトジェネレータを開いて作成する。<br>

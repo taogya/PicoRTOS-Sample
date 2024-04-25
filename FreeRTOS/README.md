@@ -1,10 +1,10 @@
 # FreeRTOS
 FreeRTOSを使用したプログラム。<br>
+https://github.com/FreeRTOS/FreeRTOS <br>
 
 ## ビルド手順
-- Windows<br>
-    ```sh
-    $ rd /s /q "src/build"
-    $ cmake -S src -B src/build -G Ninja
-    $ cmake --build src/build
-    ```
+```sh
+$ rm -rf src/build
+$ cmake -S src -B src/build -G Ninja
+$ cmake --build src/build
+```

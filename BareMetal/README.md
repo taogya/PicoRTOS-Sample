@@ -2,9 +2,8 @@
 OSを乗せないタイマー割り込みを使用したプログラム。<br>
 
 ## ビルド手順
-- Windows<br>
-    ```sh
-    $ rd /s /q "src/build"
-    $ cmake -S src -B src/build -G Ninja
-    $ cmake --build src/build
-    ```
+```sh
+$ rm -rf src/build
+$ cmake -S src -B src/build -G Ninja
+$ cmake --build src/build
+```
