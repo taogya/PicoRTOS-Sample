@@ -1,0 +1,21 @@
+{
+	"folders": [
+		{
+			"path": "./BareMetal"
+		}
+	],
+	"settings": {
+		"files.associations": {
+			"chrono": "cpp",
+			"compare": "cpp",
+			"concepts": "cpp",
+			"cstdarg": "cpp",
+			"cstdint": "cpp",
+			"cstdio": "cpp",
+			"ctime": "cpp",
+			"ratio": "cpp",
+			"type_traits": "cpp",
+			"limits": "cpp"
+		}
+	}
+}
